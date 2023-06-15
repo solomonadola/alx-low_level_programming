@@ -1,3 +1,2 @@
 #!/bin/bash
-BASENAME=$(basename "$CFILE" .c)
-gcc -c $CFILE -o "$BASENAME.o"
+gcc -c $CFILE -o "$(basename "$CFILE" .c)".o
