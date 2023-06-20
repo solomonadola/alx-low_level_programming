@@ -2,13 +2,13 @@
 #include "main.h"
 
 /**
- * print_alphabet - it prints the alphabet, in lowercase, followed by a new line
+ * print_alphabet - in lowercase, followed by a new line
  */
 void print_alphabet(void)
 {
 	int a;
 
-	a = 65;
+	a = 97;
 
 	while (a <= 122)
 	{
