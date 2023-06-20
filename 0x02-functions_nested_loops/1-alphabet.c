@@ -6,7 +6,7 @@
  */
 void print_alphabet(void)
 {
-	int alpha
+	int alpha;
 
 	for (alpha = 97; alpha<=122; alpha++)
 	{
