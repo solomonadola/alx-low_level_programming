@@ -3,7 +3,8 @@
  * _islower - Shows 1 if the input is a
  * lowercase character. if not it shows
  * 0
- * @c is character
+ *
+ * @c: is character
  *
  * Return: 1 for lowercase character. 0 for the rest.
  */
