@@ -2,7 +2,7 @@
 /**
  * print_sign - Determines if the input number
  * greater, equal or less than zero.
- *
+ * @n is integer
  * Return: 1 is greater than zero. 0 is zero.
  * -1 is less than zero.
  */
