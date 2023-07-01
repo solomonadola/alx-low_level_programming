@@ -1,18 +1,18 @@
-#include "holberton.h"
+#include "main.h"
 /**
- * _strcmp - Compares s1 and s2
- *
- * @s1: String to be compared against s2
- * @s2: String to be compared against s1
- * Return: Always 0.
+ * reverse_array - reverse array
+ * @a:array
+ * @n:integer
+ * Return:void
  */
-int _strcmp(char *s1, char *s2)
+void reverse_array(int *a, int n)
 {
-	int i = 0;
+int i, c;
 
-	while ((s1[i] == s2[i]) && (s1[i] != '\0'))
+for (i = 0; (i < (n - 1) / 2); i++)
 	{
-		i++;
+	c = a[i];
+	a[i] = a[n - 1 - i];
+	a[n - 1 - i] = c;
 	}
-	return (s1[i] - s2[i]);
 }
