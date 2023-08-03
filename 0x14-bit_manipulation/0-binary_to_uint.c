@@ -3,7 +3,7 @@
 /**
  * binary_to_uint - a function that converts
  * a binary number to an unsigned int
- * @b - it points to a sting of 0 and 1
+ * @b: it points to a sting of 0 and 1
  * Return: the converted number or 0
  * if there is one or more chars in the
  * string or null
