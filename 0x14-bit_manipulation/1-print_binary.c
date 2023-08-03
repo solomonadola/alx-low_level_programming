@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_binary - a function that returns 
+ * print_binary - a function that returns
  * the value of a bit at a given index
  * of a number.
  * @n: unsigned long int.
