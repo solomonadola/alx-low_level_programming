@@ -13,6 +13,11 @@ unsigned int binary_to_uint(const char *b)
 	unsigned int result;
 	int length, i;
 
+	if (!b)
+	{
+		return (0);
+	}
+
 	length = 0;
 	result = 0;
 
@@ -35,5 +40,7 @@ unsigned int binary_to_uint(const char *b)
 		{
 			return (0);
 		}
+	}
+		
 	return (result);
 }
