@@ -6,8 +6,8 @@
  * @filename: filename.
  * @text_content: added content.
  *
- * Return: 1 if the file exists. 
- * -1 if the file does not exist
+ * Return: 1 if the file exists.
+ * * -1 if the file does not exist
  * or if it fails.
  */
 int append_text_to_file(const char *filename, char *text_content)
@@ -26,7 +26,8 @@ int append_text_to_file(const char *filename, char *text_content)
 
 	if (text_content)
 	{
-		for (lt = 0; text_content[lt]; lt++);
+		for (lt = 0; text_content[lt]; lt++)
+			;
 
 		rwr = write(t, text_content, lt);
 
