@@ -1,0 +1,4 @@
+# Define the name of the executable file
+school: main.c school.c
+	gcc -o school main.c school.c
+all:school
